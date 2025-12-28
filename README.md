@@ -2,12 +2,12 @@
 Watch the project demo here: https://github.com/user-attachments/assets/1826ef92-58df-47c6-9c00-e0ef8fc9d57b
 
 Group Members:
--   **Andrhe Lomocso
--   **Kenneth William Sareno
--   **Mark Mejia
--   **Jericho Valerio
--   **Rhenz Ayhon
--   **John Mark Depaclayon
+-   Andrhe Lomocso
+-   Kenneth William Sareno
+-   Mark Mejia
+-   Jericho Valerio
+-   Rhenz Ayhon
+-   John Mark Depaclayon
 
 # Note Management System (NMS)
 
