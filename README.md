@@ -1,52 +1,59 @@
-## 📚 Learning Objectives
-This project aims to achieve the following learning objectives:
+## Demo Video
+Watch the project demo here: https://github.com/user-attachments/assets/1826ef92-58df-47c6-9c00-e0ef8fc9d57b
 
-1. Design and implement RESTful CRUD APIs using Express.js  
-2. Develop a Flutter mobile application that consumes a REST API  
-3. Apply client-server architecture concepts  
-4. Handle HTTP requests, responses, and JSON data  
-5. Implement validation, error handling, and proper project structure  
+📝 Notes Management System
+🚀 Project Overview
 
----
+This project is a Notes Management System that allows a single user to create, view, update, and delete notes. The system is developed using Flutter for the mobile application, following a client–server architecture, and communicates with a RESTful API built using Express.js. The backend stores data in MongoDB and supports full CRUD (Create, Read, Update, Delete) operations with proper validation, error handling, and structured JSON responses.
 
-## 🗂️ System Overview – NoteApp CRUD
-**NoteApp** is a full-stack CRUD application that allows users to create, view, update, and delete notes.  
-The system follows a **client-server architecture**, where:
+🎯 Learning Objectives
 
-- **Backend**: Express.js REST API
-- **Frontend**: Flutter mobile application
-- **Database**: MongoDB / MySQL
+Design and implement RESTful CRUD APIs using Express.js 🔧
 
----
+Develop a Flutter mobile app that consumes a REST API 📲
 
-## ⚙️ General System Requirements Implementation
+Apply client-server architecture concepts 🌐
 
-| Requirement | Implementation in NoteApp |
-|-------------|---------------------------|
-| Two related entities | User & Note |
-| Full CRUD operations | Create, Read, Update, Delete notes |
-| Database storage | Notes stored in MongoDB / MySQL |
-| Client-server architecture | Flutter client + Express API |
-| Realistic system | Note-taking application |
+Handle HTTP requests, responses, and JSON data 📡
 
----
+Implement validation, error handling, and clean project structure 🏗️
 
-## 🖥️ Backend Requirements (Express.js API)
+📝 General System Requirements
 
-### Technologies Used
-- Node.js
-- Express.js
-- MongoDB (Mongoose) / MySQL
-- REST architecture
+Manage at least two related data entities 🔗
 
-### Implemented Features
-- RESTful API endpoints for **Notes**
-- CRUD operations using:
-  - `GET` – retrieve notes
-  - `POST` – create notes
-  - `PUT` – update notes
-  - `DELETE` – delete notes
-- JSON responses with correct HTTP status codes
-- Basic input validation
-- Centralized error handling
-- Structured project layout:
+Support full CRUD operations ✅
+
+Store data in a MongoDB database 🗄️
+
+Follow a client-server architecture 🌐
+
+Be practical and realistic for real-world use 🛠️
+
+⚙️ Backend Requirements (Express.js API)
+
+Use Express.js to create RESTful API endpoints ⚡
+
+Implement CRUD endpoints for all main entities ✨
+
+Use proper HTTP methods: GET, POST, PUT, DELETE 📨
+
+Return JSON responses with correct HTTP status codes 📦
+
+Implement basic validation and error handling ✅⚠️
+
+Organize the project using routes, controllers, and models 🛠️
+
+📱 Frontend Requirements (Flutter App)
+
+Consume the Express.js API 📡
+
+Display data retrieved from the API 👀
+
+Provide forms for creating and updating notes ✏️
+
+Allow users to delete records 🗑️
+
+Use proper navigation between screens 🔄
+
+Handle loading states ⏳ and basic error messages ⚠️
