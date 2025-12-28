@@ -44,7 +44,7 @@ Follow these steps to set up the project locally.
 ### Prerequisites
 -   [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
 -   [Node.js](https://nodejs.org/) installed.
--   A [MongoDB](https://www.mongodb.com/) database (local or Atlas).
+-   A [MongoDB](https://www.mongodb.com/) database (Atlas).
 
 ### 1. Backend Setup
 Navigate to the server directory and install dependencies:
