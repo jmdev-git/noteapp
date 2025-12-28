@@ -1,59 +1,82 @@
 ## Demo Video
 Watch the project demo here: https://github.com/user-attachments/assets/1826ef92-58df-47c6-9c00-e0ef8fc9d57b
 
-📝 Notes Management System
-🚀 Project Overview
+Group Members:
+Andrhe Lomocso
+Kenneth William Sareno
+Mark Mejia
+Jericho Valerio
+Rhenz Ayhon
+John Mark Depaclayon
 
-This project is a Notes Management System that allows a single user to create, view, update, and delete notes. The system is developed using Flutter for the mobile application, following a client–server architecture, and communicates with a RESTful API built using Express.js. The backend stores data in MongoDB and supports full CRUD (Create, Read, Update, Delete) operations with proper validation, error handling, and structured JSON responses.
+# Note Management System (NMS)
 
-🎯 Learning Objectives
+A modern, full-stack note-taking application designed for seamless organization and productivity. Built with a **Flutter** frontend and a **Node.js/Express/MongoDB** backend, this app offers a clean, responsive user interface and robust data management.
 
-Design and implement RESTful CRUD APIs using Express.js 🔧
+## 🚀 Features
 
-Develop a Flutter mobile app that consumes a REST API 📲
+-   **📝 Smart Note Taking**: Create and edit notes with a distraction-free interface.
+-   **💾 Auto-Save**: Never lose your thoughts—notes are saved automatically as you type.
+-   **🗂️ Categorization**: Organize your notes into categories to keep everything structured.
+-   **🎨 Modern UI**: Enjoy a beautiful Masonry Grid layout (Pinterest-style) with a polished Deep Purple theme and Google Fonts (Poppins).
+-   **🗑️ Easy Management**: Delete notes you no longer need with a simple tap.
+-   **⚡ Real-time Updates**: Instant interaction with the backend API.
 
-Apply client-server architecture concepts 🌐
+## 🛠️ Tech Stack
 
-Handle HTTP requests, responses, and JSON data 📡
+### Frontend (Mobile App)
+-   **Framework**: [Flutter](https://flutter.dev/)
+-   **Language**: Dart
+-   **Key Packages**:
+    -   `http`: For API communication.
+    -   `google_fonts`: For modern typography.
+    -   `flutter_staggered_grid_view`: For the masonry layout.
 
-Implement validation, error handling, and clean project structure 🏗️
+### Backend (API)
+-   **Runtime**: [Node.js](https://nodejs.org/)
+-   **Framework**: [Express.js](https://expressjs.com/)
+-   **Database**: [MongoDB](https://www.mongodb.com/) (with Mongoose ODM)
 
-📝 General System Requirements
+## 🏁 Getting Started
 
-Manage at least two related data entities 🔗
+Follow these steps to set up the project locally.
 
-Support full CRUD operations ✅
+### Prerequisites
+-   [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+-   [Node.js](https://nodejs.org/) installed.
+-   A [MongoDB](https://www.mongodb.com/) database (local or Atlas).
 
-Store data in a MongoDB database 🗄️
+### 1. Backend Setup
+Navigate to the server directory and install dependencies:
 
-Follow a client-server architecture 🌐
+```bash
+cd server
+npm install
+```
 
-Be practical and realistic for real-world use 🛠️
+Create a `.env` file in the root `noteapp` directory (or `server` directory depending on config) with your variables:
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+```
 
-⚙️ Backend Requirements (Express.js API)
+Start the server:
+```bash
+node server.js
+```
 
-Use Express.js to create RESTful API endpoints ⚡
+### 2. Frontend Setup
+Navigate to the root directory and install Flutter dependencies:
 
-Implement CRUD endpoints for all main entities ✨
+```bash
+flutter pub get
+```
 
-Use proper HTTP methods: GET, POST, PUT, DELETE 📨
+Run the app (ensure your emulator or device is connected):
 
-Return JSON responses with correct HTTP status codes 📦
+```bash
+flutter run
+```
 
-Implement basic validation and error handling ✅⚠️
+> **Note**: If running on Android Emulator, the app connects to `http://10.0.2.2:5000`. For Windows/Web, it uses `http://localhost:5000`. This is handled in `lib/services/api_service.dart`.
 
-Organize the project using routes, controllers, and models 🛠️
-
-📱 Frontend Requirements (Flutter App)
-
-Consume the Express.js API 📡
-
-Display data retrieved from the API 👀
-
-Provide forms for creating and updating notes ✏️
-
-Allow users to delete records 🗑️
-
-Use proper navigation between screens 🔄
-
-Handle loading states ⏳ and basic error messages ⚠️
